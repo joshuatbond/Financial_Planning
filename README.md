@@ -1,4 +1,6 @@
-# Background
+# Personal Financial Planner
+
+## Background
 
 The goal of this project was to create tools that helps users enhance their financial health. Through the ability to assess monthly personal finances, and also be able to forecast a reasonably good retirement plan based on cryptocurrencies, stocks, and bonds.
 
@@ -71,7 +73,7 @@ In this section, the financial health of the users is assessed.
    * If total savings are equal to the emergency fund, display a message congratulating the person on reaching this financial goal.
    * If total savings are less than the emergency fund, display a message showing how many dollars away the person is from reaching the goal.
 
-### Part 2 - Retirement Planning
+## Part 2 - Retirement Planning
 
 In this section, I used the Alpaca API to fetch historical closing prices for a retirement portfolio and then Use the MCForecastTools toolkit to create Monte Carlo simulations to project the portfolio performance at `30` years. Afterwards, I use the Monte Carlo data to answer questions about the portfolio.
 
@@ -92,6 +94,5 @@ In this section, I used the Alpaca API to fetch historical closing prices for a 
 #### Early Retirement Analysis
 
 As an additional component, I tried adjusting the portfolio to include more risk (a higher stock than bond ratio) and to have a larger initial investment and rerun the retirement analysis to see what it would take to retire in `5` or `10` years instead of `30`.
-
 
 ---
