@@ -1,4 +1,4 @@
-# Personal Financial Planner
+# Personal Financial Planning
 
 ## Background
 
